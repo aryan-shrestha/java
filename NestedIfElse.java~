@@ -1,0 +1,15 @@
+class MyClass {
+  public static void main (String[] args){
+    int per=80;
+    String g = "female";
+    if (g=="female") {
+      if(per >= 80) {
+        System.out.println("You're selected");
+      } else {
+        System.out.println("sorry! you're bot selected");
+      }
+    } else {
+      System.out.println("Not Eligible");
+    }
+  }
+}
